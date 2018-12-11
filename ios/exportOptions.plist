@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Update bundle identifier and provisioning profile for HockeyApp builds -->
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>method</key>
+	<string>enterprise</string>
+	<key>uploadSymbols</key>
+	<true/>
+	<key>provisioningProfiles</key>
+	<dict>
+		<key>$(BUNDLE_IDENTIFIER)</key>
+		<string>$(PROVISIONING_PROFILE)</string>
+	</dict>
+</dict>
+</plist>
