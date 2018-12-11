@@ -1,0 +1,23 @@
+dependencies: \
+  /Users/mobiquity/Documents/React-native/react-native-typescript-boilerplate/node_modules/react-native/React/Modules/RCTDevSettings.mm \
+  /Users/mobiquity/Documents/React-native/react-native-typescript-boilerplate/node_modules/react-native/React/Modules/RCTDevSettings.h \
+  /Users/mobiquity/Documents/React-native/react-native-typescript-boilerplate/node_modules/react-native/React/Base/RCTBridge.h \
+  /Users/mobiquity/Documents/React-native/react-native-typescript-boilerplate/node_modules/react-native/React/Base/RCTBridgeDelegate.h \
+  /Users/mobiquity/Documents/React-native/react-native-typescript-boilerplate/node_modules/react-native/React/Base/RCTJavaScriptLoader.h \
+  /Users/mobiquity/Documents/React-native/react-native-typescript-boilerplate/node_modules/react-native/React/Base/RCTDefines.h \
+  /Users/mobiquity/Documents/React-native/react-native-typescript-boilerplate/node_modules/react-native/React/Base/RCTBridgeModule.h \
+  /Users/mobiquity/Documents/React-native/react-native-typescript-boilerplate/node_modules/react-native/React/Base/RCTFrameUpdate.h \
+  /Users/mobiquity/Documents/React-native/react-native-typescript-boilerplate/node_modules/react-native/React/Base/RCTInvalidating.h \
+  /Users/mobiquity/Documents/React-native/react-native-typescript-boilerplate/ios/build/Build/Products/Debug-iphonesimulator/include/jschelpers/JavaScriptCore.h \
+  /Users/mobiquity/Documents/React-native/react-native-typescript-boilerplate/ios/build/Build/Products/Debug-iphonesimulator/include/jschelpers/JSCWrapper.h \
+  /Users/mobiquity/Documents/React-native/react-native-typescript-boilerplate/node_modules/react-native/React/Base/RCTBridge+Private.h \
+  /Users/mobiquity/Documents/React-native/react-native-typescript-boilerplate/node_modules/react-native/React/Base/RCTEventDispatcher.h \
+  /Users/mobiquity/Documents/React-native/react-native-typescript-boilerplate/node_modules/react-native/React/Modules/RCTJSCSamplingProfiler.h \
+  /Users/mobiquity/Documents/React-native/react-native-typescript-boilerplate/node_modules/react-native/React/Base/RCTLog.h \
+  /Users/mobiquity/Documents/React-native/react-native-typescript-boilerplate/node_modules/react-native/React/Base/RCTAssert.h \
+  /Users/mobiquity/Documents/React-native/react-native-typescript-boilerplate/node_modules/react-native/React/Base/RCTUtils.h \
+  /Users/mobiquity/Documents/React-native/react-native-typescript-boilerplate/node_modules/react-native/React/DevSupport/RCTPackagerClient.h \
+  /Users/mobiquity/Documents/React-native/react-native-typescript-boilerplate/node_modules/react-native/React/Profiler/RCTProfile.h \
+  /Users/mobiquity/Documents/React-native/react-native-typescript-boilerplate/node_modules/react-native/React/DevSupport/RCTPackagerConnection.h \
+  /Users/mobiquity/Documents/React-native/react-native-typescript-boilerplate/node_modules/react-native/React/DevSupport/RCTInspectorDevServerHelper.h \
+  /Users/mobiquity/Documents/React-native/react-native-typescript-boilerplate/node_modules/react-native/React/Inspector/RCTInspectorPackagerConnection.h
