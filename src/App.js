@@ -60,7 +60,7 @@ export default class App extends React.Component {
      selectedPlace : null
     });
   }
-  onModelDeleteHandler = key =>{
+  onModelDeleteHandler = () =>{
       this.setState(prevState => {
       return {
         places: prevState.places.filter((place, i) => {
