@@ -2,7 +2,7 @@ import React from 'react';
 import { Provider } from 'react-redux';
 import { createStackNavigator } from 'react-navigation';
 
-import { configureStore } from 'src/Store';
+import { configureStore } from './store/Store';
 import { HomeScreen } from 'src/home/HomeScreen';
 import { StyleSheet, Text, View, TextInput,Alert } from 'react-native';
 
