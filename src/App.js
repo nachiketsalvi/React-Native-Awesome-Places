@@ -1,8 +1,8 @@
 import React from 'react';
-import { Provider } from 'react-redux';
+import { Provider,connect } from 'react-redux';
 import { createStackNavigator } from 'react-navigation';
 
-import { configureStore } from './store/Store';
+import  configureStore  from './store/configureStore';
 import { HomeScreen } from 'src/home/HomeScreen';
 import { StyleSheet, Text, View, TextInput,Alert } from 'react-native';
 
@@ -10,28 +10,27 @@ import PlaceInput from './components/PlaceInput/PlaceInput';
 import PlaceList from './components/PlaceList/PlaceList';
 import PlaceDetail from './components/PlaceDetail/PlaceDetail'
 import placeImage from './assets/place.jpg'
+import {addPlace,deletePlace,deselectPlace,selectPlace} from './store/action/index'
 const AppStack = createStackNavigator({
   Home: HomeScreen,
 });
 
-export default class App extends React.Component {
-  state = {
-    places: [],
-    selectedPlace: null
-  };
+ class App extends React.Component {
+  //  
 
   placeAddedHandler = placeName => {
-    this.setState(prevState => {
-      return {
-        places: prevState.places.concat({
-          key: Math.random(),
-          name:placeName,
-          image: {
-            uri:"https://upload.wikimedia.org/wikipedia/commons/3/36/Hopetoun_falls.jpg"
-          }
-        })
-      };
-    });
+    // this.setState(prevState => {
+    //   return {
+    //     places: prevState.places.concat({
+    //       key: Math.random(),
+    //       name:placeName,
+    //       image: {
+    //         uri:"https://upload.wikimedia.org/wikipedia/commons/3/36/Hopetoun_falls.jpg"
+    //       }
+    //     })
+    //   };
+    // });
+    this.props.addPlace(placeName);
   };
   store = configureStore();
 
@@ -93,3 +92,23 @@ const styles = StyleSheet.create({
     justifyContent: "flex-start"
   }
 });
+
+const mapStateToProps= state=> {
+  return{
+    places: state.places.places,
+    selectedPlace: state.places.selectedPlace
+  }
+   
+};
+const mapDispatchToProps = dispatch => {
+  return {  
+    addPlace: (name)=>dispatch(addPlace(name)),
+    deletePlace: () => dispatch(deletePlace()),
+    selectPlace: (key) => dispatch(selectPlace(key)),
+    deselectPlace: () => dispatch(deselectPlace())
+  
+  }
+
+}
+
+export default connect() (App);
