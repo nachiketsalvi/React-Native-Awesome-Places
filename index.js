@@ -3,13 +3,17 @@
 // This *must* be a .js file even though we are using TypeScript for the source.
 import React from 'react';
 import { View, Text, AppRegistry } from 'react-native';
-import { Provider } from 'react-redux';
-import { configureStore } from './src/store/Store';
+import {Provider} from 'react-redux';
+
 import App from './src/App';
+import  configureStore from './src/store/configureStore'
+
+
 const store = configureStore();
+
 const RNRedux = () => (
-  <Provider store={store}>
-    <App />
-  </Provider>
+    <Provider store={store}>
+        <App />
+    </Provider>
 );
-AppRegistry.registerComponent('test', () => RNRedux );
+AppRegistry.registerComponent('test', () => RNRedux);

@@ -1,3 +1,3 @@
 dependencies: \
-  /Users/mobiquity/Documents/React-native/Awesome\ Places/node_modules/react-native/React/Base/RCTMultipartStreamReader.m \
-  /Users/mobiquity/Documents/React-native/Awesome\ Places/node_modules/react-native/React/Base/RCTMultipartStreamReader.h
+  /Users/mobiquity/Documents/test/React-Native-Awesome-Places/node_modules/react-native/React/Base/RCTMultipartStreamReader.m \
+  /Users/mobiquity/Documents/test/React-Native-Awesome-Places/node_modules/react-native/React/Base/RCTMultipartStreamReader.h
